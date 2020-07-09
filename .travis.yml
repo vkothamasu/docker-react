@@ -5,5 +5,5 @@ services:
 before_install:
   - docker build -t kothamasu/docker-react -f Dockerfile.dev .
 
-  script:
+script:
   - docker run -e CI=true kothamasu/frontend npm run test
