@@ -6,4 +6,4 @@ before_install:
   - docker build -t kothamasu/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true kothamasu/frontend npm run test
+  - docker run -e CI=true kothamasu/docker-react npm run test
