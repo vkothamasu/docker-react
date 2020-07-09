@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           yes   Edit <code>src/App.js</code> and save to reload is modified again and again and on 7/9/2020 july 9th.
-		  with docker compose again
+		  with docker compose again with feature to master branch
 		  whatever
         </p>
         <a
